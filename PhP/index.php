@@ -6,8 +6,12 @@
     <title>PhP Inicio</title>
   </head>
   <body>
+  <!--A Tag ?php faz impressões ou posso usar apenas ?='' ? -->
       <?php
-        echo 'Hello Word';
+        echo 'Tag padrão';
+      ?>
+      <br/>
+      <?='Tag de impressão';
       ?>
   </body>
 </html>
