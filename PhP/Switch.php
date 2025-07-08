@@ -8,13 +8,17 @@
   <body>
   <!--Os comentarios dentro das tags php, abaixo desse comentario, nao aparecem na pagina HTML gerada -->
       <?php
-        switch ($variable) {
-          case 'value':
-            # code...
+        switch ('abc') {
+          case 'abc':
+            echo 'Case 1';
             break;
+
+          case abc:
+            echo 'Case 2';
+            break;  
           
           default:
-            # code...
+            echo 'Nada';
             break;
         }
       ?>
