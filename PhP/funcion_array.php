@@ -32,6 +32,7 @@
           echo '</pre>';
           echo '<br/>';
         */
+
         /*
         $array = ['Mouse', 'Teclado', 'Fonte', 'Notebook', 'Gabinete'];
         echo '<pre>';
@@ -59,10 +60,39 @@
           echo '</pre>';
           echo '<br/>';
           */
-          $array1 =['Tv', 'DVD', 'Som'];
-          $array2 =['Sofa', 'Poltrona', 'Mesa', 'Abaju'] 
-    ?>
 
+         /* 
+        $array1 =['Tv', 'DVD', 'Som'];
+        $array2 =['Sofa', 'Poltrona', 'Mesa', 'Abaju']; 
+           #a função array merge une dois array em novo array
+        $novo = array_merge($array1, $array2);
+          echo '<pre>';
+            print_r($novo);
+          echo '</pre>';
+          echo '<br/>';
+          */
+
+          /*
+        #a função explode seprara uma string com base no delimitador usado e devolve um array com cada informação - Primeiro indica o delimitador, depois a variavel que contem a string
+        $D = "10/08/1994";
+        $c = explode('/', $D);
+        echo '<pre>';
+            print_r($c);
+            echo $c[2].'-'.$c[0].'-'.$c[1]; //nesse exemplo estamos usando o retorno do explode para gerar uma nova sequencia de informações em o delimitador excluido
+          echo '</pre>';
+          echo '<br/>';
+          */
+            #a função impode junta os elementos de um array em uma string, usando o delimitado indicado
+          $array = ['Abacate', 'Melão', 'Mamão'];
+          $a=implode('-', $array);
+          echo $a;
+
+
+
+      
+
+    ?>
+  <h1>Não tem nada aqui</h1>
      
       
       
