@@ -1,5 +1,5 @@
 # Dev_Web
-Nessa branch tem, especificamente, praticas de PHP do curso de dev.web da Udemy. 
+Nessa repositorio tem, especificamente, praticas de PHP do curso de dev.web da Udemy. 
 Não será encotrado aqui nenhuma aplicação robusta, além das praticas do curso.
 A ideia de colocar as praticas do .git é justamente pela versatilidade que o GitHub nos oferece.
 E também ajuda a manter as coisas organizadas e acessíveis de qualquer lugar. 
