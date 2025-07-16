@@ -23,8 +23,7 @@ foreach($usr as $user){
 };
 //CONDICIONAL PARA DIRECIONAR O FLUXO COM BASE NA EXISTENCIA OU NAO DO USUARIO
 if ($auth) {
-  echo 'Logou';
-  $_SESSION['autenticado'] = 'SIM';
+   $_SESSION['autenticado'] = 'SIM';
    header('Location: home.php');
 } else {
   $_SESSION['autenticado'] = 'NÃO';
