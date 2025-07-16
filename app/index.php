@@ -63,6 +63,17 @@
                 </div>
                 <?php } ?>
 
+                 <?php
+                  //verificar se o usuario fez login
+                  if (isset($_GET['login']) && $_GET['login']== 'logoff') { 
+              
+                ?>
+                <div class="text-danger">
+                  Por favor, faça login novamente para continuar
+                  
+                </div>
+                <?php } ?>
+
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>
             </div>
