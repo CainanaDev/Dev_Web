@@ -34,3 +34,5 @@ TestResults.xml
 *.app
 .snapshots/*
 ./Bkp/*
+*.txt
+./gitignore
