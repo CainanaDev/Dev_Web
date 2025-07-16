@@ -33,3 +33,4 @@ TestResults.xml
 .history/
 *.app
 .snapshots/*
+./Bkp/*
