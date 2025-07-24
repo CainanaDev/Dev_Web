@@ -23,7 +23,7 @@
       </a>
     </nav>
 
-    <div class="container">    
+    <div class="container">
       <div class="row">
 
         <div class="card-login">
@@ -41,37 +41,36 @@
                 </div>
 
                 <?php
-                  //verificar se um indice está setado
-                  if (isset($_GET['login']) && $_GET['login']== 'erro') { 
-                //caso não esteja, sera exibida uma mensagem de erro de login
+                //a funçao isset verificar se um indice está setado
+                if (isset($_GET['login']) && $_GET['login'] == 'erro') {
+                  //caso não esteja, sera exibida uma mensagem de erro de login
                 ?>
-                <div class="text-danger">
-                  Usuário ou senha inválido(s)
-                  
-                </div>
+                  <div class="text-danger">
+                    Usuário ou senha inválido(s)
+                  </div>
+                <?php } ?>
+              <!--#####################-->
+                <?php
+                //verificar se o usuario fez login
+                if (isset($_GET['login']) && $_GET['login'] == 'erro2') {
+
+                ?>
+                  <div class="text-danger">
+                    Nossa que feio tentando acessar a pagina
+                    dessa forma, Isso ta protegido, viu?! Faça login por favor!!
+
+                  </div>
                 <?php } ?>
 
                 <?php
-                  //verificar se o usuario fez login
-                  if (isset($_GET['login']) && $_GET['login']== 'erro2') { 
-              
-                ?>
-                <div class="text-danger">
-                  Nossa que feio tentando acessar a pagina 
-                  dessa forma, Isso ta protegido, viu?! Faça login por favor!!
-                  
-                </div>
-                <?php } ?>
+                //verificar se o usuario fez login
+                if (isset($_GET['login']) && $_GET['login'] == 'logoff') {
 
-                 <?php
-                  //verificar se o usuario fez login
-                  if (isset($_GET['login']) && $_GET['login']== 'logoff') { 
-              
                 ?>
-                <div class="text-danger">
-                  Por favor, faça login novamente para continuar
-                  
-                </div>
+                  <div class="text-danger">
+                    Por favor, faça login novamente para continuar
+
+                  </div>
                 <?php } ?>
 
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
@@ -79,6 +78,7 @@
             </div>
           </div>
         </div>
-    </div>
+      </div>
   </body>
+
 </html>

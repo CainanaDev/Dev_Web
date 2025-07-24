@@ -17,9 +17,8 @@ echo '</pre>';
 //FUNÇÃO PARA VERIFICAR SE O USUARIO EXISTE
 foreach($usr as $user){
   if ($user ['email'] == $_POST['email'] && 
-  $user['senha']== $_POST['senha']) {
-    $auth=true;
-  }
+      $user['senha']== $_POST['senha'])
+      {$auth=true;}
 };
 //CONDICIONAL PARA DIRECIONAR O FLUXO COM BASE NA EXISTENCIA OU NAO DO USUARIO
 if ($auth) {

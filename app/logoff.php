@@ -4,6 +4,6 @@
   #Ex.: unset($ARRAY['INDICE'])
 
   //Pra destruir variaveis de sessão por inteiro temos a função session_destroy(). Que mata todas as sessões ativas quando execultadas
- session_destroy();
- header('Location: index.php')
+  session_destroy();
+  header('Location: index.php');
  ?>

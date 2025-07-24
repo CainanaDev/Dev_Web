@@ -1,6 +1,6 @@
 <?php 
-//a função require replica scripts de uma pagina para outra... Podendo ser substiuida por include
-require_once "valida.php";
+  //a função require replica scripts de uma pagina para outra... Podendo ser substiuida por include
+  require_once "valida.php";
 ?>
 <html>
   <head>
