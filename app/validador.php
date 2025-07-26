@@ -3,11 +3,11 @@ session_start(); //Guarda um id no cache para cada sessão iniciada
 
 $_POST; #encainha os dados da pagina inicial para o back-and
 
-//USUARIOS DO SISTEMA
+//USUARIOS DO SISTEMA - 
 $auth=false; #a variavel $auth, serve para direcionar o fluxo de loguin 
 $usr = [
-  ['email' => 'teste@teste.com.br', 'senha' => '123456'],
-  ['email' => 'user@teste.com.br', 'senha' => 'abcd']
+        ['email' => 'teste@teste.com.br', 'senha' => '123456'],
+        ['email' => 'user@teste.com.br', 'senha' => 'abcd']
 ];
 /*
 echo '<pre>';
